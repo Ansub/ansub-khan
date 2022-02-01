@@ -1,0 +1,23 @@
+.navbar {
+  color: white;
+}
+.navbar--logo {
+  width: 90px;
+}
+body {
+  background: linear-gradient(180deg, #f5654a 0%, #f45441 100%);
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #fdf36d !important;
+}
+
+.nav-icons {
+  width: 12px;
+  margin: 0px 5px;
+}
