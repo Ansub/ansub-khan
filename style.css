@@ -4,20 +4,106 @@
 .navbar--logo {
   width: 90px;
 }
+.dark {
+  background: rgb(19, 19, 19) !important;
+}
 body {
   background: linear-gradient(180deg, #f5654a 0%, #f45441 100%);
   background-repeat: no-repeat;
+  font-family: "Raleway", sans-serif !important;
 }
 
 .nav-link {
   color: white !important;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .nav-link:hover {
   color: #fdf36d !important;
 }
 
-.nav-icons {
-  width: 12px;
-  margin: 0px 5px;
+.heading {
+  color: #fdf36d !important;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.fab {
+  font-size: 3rem;
+  color: white;
+  padding: 20px;
+}
+
+.fab:hover {
+  color: #fdf36d;
+}
+
+.card {
+  height: 35rem;
+  display: flex !important;
+  border: none !important;
+}
+
+.card-body {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+h3 {
+  color: #fdf36d;
+}
+@media screen and (min-width: 1600px) {
+  #skills {
+    padding: 10rem 0 !important;
+  }
+
+  #about {
+    padding: 10rem 0 !important;
+  }
+
+  #projects {
+    padding: 10rem 0 !important;
+  }
+
+  #main {
+    padding: 10rem 0 !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #skills {
+    padding: 10rem 0 !important;
+  }
+
+  #about {
+    padding: 10rem 0 !important;
+  }
+
+  #projects {
+    padding: 10rem 0 !important;
+  }
+
+  #main {
+    padding: 3rem 0 !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #skills {
+    padding: 5rem 0rem !important;
+  }
+
+  #about {
+    padding: 5rem 2rem !important;
+  }
+
+  #projects {
+    padding: 5rem !important;
+  }
+
+  #main {
+    padding: 8rem 2rem !important;
+  }
 }

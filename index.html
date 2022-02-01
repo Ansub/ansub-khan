@@ -11,6 +11,14 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
 
     <title>Ansub Khan</title>
   </head>
@@ -35,16 +43,16 @@
               <a class="nav-link" href="#">Blogs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Education</a>
+              <a class="nav-link" href="#education">Education</a>
             </li>
           </ul>
           <ul class="navbar-nav">
@@ -79,10 +87,207 @@
         </div>
       </div>
     </nav>
+
+    <!-- Main -->
+    <section class="p-5 my-lg-5 text-center text-light" id="main">
+      <div class="container">
+        <img class="img-fluid mx-auto d-block" src="images/vector.svg" alt="" />
+        <h1
+        class="txt-rotate mt-5"
+        data-period="2000"
+        data-rotate='[ "Front-End Developer", "Designer,"," & Tech Nerd"]'
+      ></h1>
+        <img
+          class="img-fluid mt-5 w-25"
+          src="/images/down-arrow.svg"
+          alt="arrow"
+        />
+      </div>
+    </section>
+    <!-- About -->
+    <section class="p-5 text-light" id="about">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-sm-5">
+            <h1 class="heading text-center mb-5">About Me</h1>
+            <p>
+              Hello, my name is Ansub Khan a Computer Application Graduate from
+              India, I am a Front-End Developer who is always eager to learn
+              something new and is up to date on the latest trends in
+              technology, space, and science I enjoy talking to people about
+              ideas and hearing their perspectives on them. I've always had a
+              strong interest in computers and technology. I also am trying to
+              make web development simple for people by making blogs post and
+              threads on twitter where i try to simplify programming for them.
+            </p>
+          </div>
+          <div class="col-md">
+            <img class="img-fluid" src="/images/ansub.png" alt="ansubImage" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section class="p-5 text-light text-center dark" id="skills">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <h1 class="heading"> <i class="fas fa-cogs"></i> Skills</h1>
+          <div class="col-md pt-md-5">
+            <a href=""><i class="fab fa-html5"></i></a>
+            <a href=""><i class="fab fa-css3"></i></a>
+            <a href=""><i class="fab fa-js"></i></a>
+            <a href=""><i class="fab fa-bootstrap"></i></a>
+            <a href=""><i class="fab fa-npm"></i></a>
+            <a href=""><i class="fab fa-react"></i></a>
+            <a href=""><i class="fab fa-git"></i></a>
+            <a href=""><i class="fab fa-figma"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="p-5 " id="projects">
+      <div class="container">
+        <h1 class="heading text-center mb-md-5">Projects</h1>
+        <div class="row ">
+          <!-- Focus Allure -->
+          <div class="col-md pb-3">
+            <div class="card dark text-white" style="width: 18rem; " >
+              <img class="card-img-top" src="/images/focusAllure.png" alt="Card image cap">
+              <div class="card-body  ">
+                <h3 class="card-title">Focus Allure</h3>
+                <p class="card-text">Focus Allure is a All-In-One Study Companion App. It works on Pomodoro Technique, and has soundscape to help in better focus. Published it on Product Hunt aswell.
+                </p>
+                <div class="btns">
+                  <a href="#" class="btn btn-primary">Github</a>
+                  <a href="#" class="btn btn-secondary">Demo</a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <!-- Shanty -->
+          <div class="col-md pb-3">
+            <div class="card dark text-white " style="width: 18rem; ">
+              <img class="card-img-top" src="/images/shanty.png" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title">Shanty</h3>
+                <p class="card-text">Shanty is a Chrome Extension that declutters your Chrome homepage,  it has features like: beautiful Nature Wallpaper, Real-Time Bitcoin and Ethereum Price Tracker, Real-Time Weather Updates, Motivational Quote.
+
+                </p>
+                <div class="btns">
+                  <a href="#" class="btn btn-primary">Github</a>
+                  <a href="#" class="btn btn-secondary">Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Front-End Developer Bootcamp -->
+          <div class="col-md pb-3">
+            <div class="card dark text-white" style="width: 18rem;">
+              <img class="card-img-top" src="/images/developerBootcamp.png" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title">Developer Bootcamp Website</h3>
+                <p class="card-text">made a full-responsive front-end developer bootcamp using Bootstrap 5 and custom CSS. also added Map API and Random Image API and added bootstrap features like accordion to the website.
+
+                </p>
+                <div class="btns">
+                  <a href="#" class="btn btn-primary">Github</a>
+                  <a href="#" class="btn btn-secondary">Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- guess my number -->
+          <div class="col-md pb-3">
+            <div class="card dark text-white" style="width: 18rem;">
+              <img class="card-img-top" src="/images/guessMyNumber.png" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title">Number Guessing Game</h3>
+                <p class="card-text">build a number guessing game using javascript. A Simple Number Guessing Game which uses concepts like: CSS and HTML, Basic Javascript, JS Function, JS if and else, JS Ternary Opearator, DOM Manipulation
+
+
+
+                </p>
+                <div class="btns">
+                  <a href="#" class="btn btn-primary">Github</a>
+                  <a href="#" class="btn btn-secondary">Demo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+  
+  <!-- Education -->
+  <section class="p-5 text-center text-white dark" id="education">
+    <div class="container">
+      
+      <h1 class="heading mb-5">Education</h1>
+      <div class="row">
+        <div class="col-md"><h3>Front-End Carrer Path
+        </h3>
+        <p class="lead">Scrimba
+        </p>
+        <p >2021-2022
+        </p></div>
+        <hr/>
+
+        <div class="col-md"><h3>Bachelor of Computer Applications
+        </h3>
+        <p class="lead">Guru Gobind Singh Indraprastha University
+        </p>
+        <p >2018-2021
+        </p></div>
+        <hr/>
+        <div class="col-md"><h3>Central Board of Secondary Education
+
+        </h3>
+        <p class="lead">Grade 12, Science</p>
+        <p >2017-2018
+        </p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+<footer class=" text-white page-footer font-small special-color-dark pt-4">
+  <div class="container">
+
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-github"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-linkedin"> </i>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center  py-3">© 2022 Copyright
+    <a href="https://ansubkhan.com/"> Ansub Khan</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="app.js"></script>
   </body>
 </html>
