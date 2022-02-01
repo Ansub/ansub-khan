@@ -54,6 +54,7 @@ body {
 
 h3 {
   color: #fdf36d;
+  font-weight: 700 !important;
 }
 @media screen and (min-width: 1600px) {
   #skills {
