@@ -15,16 +15,21 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" type="image/png" href="/images/A..png"/>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Ansub Khan</title>
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-dark navbar-expand-lg">
+    <nav class="navbar p-2 navbar-dark navbar-expand-lg" id="navbar">
       <div class="container-fluid">
         <a href="navbar-brand" href="#"
           ><img src="/images/logo.svg" alt="ansub" class="navbar--logo"
@@ -40,7 +45,7 @@
         <div class="collapse navbar-collapse" id="dropdown">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Blogs</a>
+              <a class="nav-link" href="https://blogs.ansubkhan.com">Blogs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -57,30 +62,20 @@
           </ul>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img
-                  class="nav-icons"
-                  src="/images/social-icons/github.svg"
-                  alt="github"
-                />
+              <a class="nav-link"  target="_blank" href="https:/twitter.com/justansub">
+                <i class="fab fa-twitter"></i>
+
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img
-                  class="nav-icons"
-                  src="/images/social-icons/twitter.svg"
-                  alt="twitter"
-                />
+              <a class="nav-link"  target="_blank" href="https:/github.com/ansub">
+                <i class="fab fa-github"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img
-                  class="nav-icons"
-                  src="/images/social-icons/linkedin.svg"
-                  alt="linkedin"
-                />
+              <a class="nav-link"  target="_blank" href="https:/linkedin.com/in/ansub">
+                <i class="fab fa-linkedin"></i>
+
               </a>
             </li>
           </ul>
@@ -93,12 +88,12 @@
       <div class="container">
         <img class="img-fluid mx-auto d-block" src="images/vector.svg" alt="" />
         <h1
-        class="txt-rotate mt-5"
-        data-period="2000"
-        data-rotate='[ "Front-End Developer", "Designer,"," & Tech Nerd"]'
-      ></h1>
+          class="txt-rotate mt-5"
+          data-period="2000"
+          data-rotate='[ "Front-End Developer", "Designer,"," & Tech Nerd"]'
+        ></h1>
         <img
-          class="img-fluid mt-5 w-25"
+          class="img-fluid mt-5  down-arrow"
           src="/images/down-arrow.svg"
           alt="arrow"
         />
@@ -109,7 +104,7 @@
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md p-sm-5">
-            <h1 class="heading text-center mb-5">About Me</h1>
+            <h1 class="heading text-center mb-5"><i class="fas fa-user"></i> About Me</h1>
             <p>
               Hello, my name is Ansub Khan a Computer Application Graduate from
               India, I am a Front-End Developer who is always eager to learn
@@ -121,8 +116,8 @@
               threads on twitter where i try to simplify programming for them.
             </p>
           </div>
-          <div class="col-md">
-            <img class="img-fluid" src="/images/ansub.png" alt="ansubImage" />
+          <div class="col-md ">
+            <img class="img-fluid " src="/images/ansub.png" alt="ansubImage" />
           </div>
         </div>
       </div>
@@ -131,7 +126,7 @@
     <section class="p-5 text-light text-center dark" id="skills">
       <div class="container">
         <div class="row align-items-center justify-content-between">
-          <h1 class="heading"> <i class="fas fa-cogs"></i> Skills</h1>
+          <h1 class="heading pb-3"><i class="fas fa-cogs"></i> Skills</h1>
           <div class="col-md pt-md-5">
             <a href=""><i class="fab fa-html5"></i></a>
             <a href=""><i class="fab fa-css3"></i></a>
@@ -147,142 +142,159 @@
     </section>
 
     <!-- Projects -->
-    <section class="p-5 " id="projects">
+    <section class="p-5" id="projects">
       <div class="container">
-        <h1 class="heading text-center mb-md-5">Projects</h1>
-        <div class="row ">
-          <!-- Focus Allure -->
-          <div class="col-md pb-3">
-            <div class="card dark text-white" style="width: 18rem; " >
-              <img class="card-img-top" src="/images/focusAllure.png" alt="Card image cap">
-              <div class="card-body  ">
-                <h3 class="card-title">Focus Allure</h3>
-                <p class="card-text">Focus Allure is a All-In-One Study Companion App. It works on Pomodoro Technique, and has soundscape to help in better focus. Published it on Product Hunt aswell.
-                </p>
-                <div class="btns">
-                  <a href="#" class="btn btn-primary">Github</a>
-                  <a href="#" class="btn btn-secondary">Demo</a>
-                </div>
-                
+        <h1 class="heading text-center mb-5"><i class="fas fa-project-diagram"></i> Projects</h1>
+        <div class="row">
+        <!-- Focus Allure -->
+        <div class="col center pb-3">
+          <div class="card dark text-white" >
+            <img
+              class="card-img-top"
+              src="/images/focusAllure.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Focus Allure</h3>
+              <p class="card-text">
+                Focus Allure is a All-In-One Study Companion App. It works on
+                Pomodoro Technique, and has soundscape to help in better focus.
+                Published it on Product Hunt aswell.
+              </p>
+              <div class="btns">
+                <a href="https://github.com/Ansub/Focus-Allure"  target="_blank" class="btn btn-primary"><i class="fab fa-github px-1"></i>Github</a>
+                <a href="https://focus-allure.vercel.app/" target="_blank" class="btn btn-secondary"> <i class="fas fa-laptop-code px-1"></i>Live</a>
               </div>
             </div>
           </div>
-          <!-- Shanty -->
-          <div class="col-md pb-3">
-            <div class="card dark text-white " style="width: 18rem; ">
-              <img class="card-img-top" src="/images/shanty.png" alt="Card image cap">
-              <div class="card-body">
-                <h3 class="card-title">Shanty</h3>
-                <p class="card-text">Shanty is a Chrome Extension that declutters your Chrome homepage,  it has features like: beautiful Nature Wallpaper, Real-Time Bitcoin and Ethereum Price Tracker, Real-Time Weather Updates, Motivational Quote.
-
-                </p>
-                <div class="btns">
-                  <a href="#" class="btn btn-primary">Github</a>
-                  <a href="#" class="btn btn-secondary">Demo</a>
-                </div>
+        </div>
+        <!-- Shanty -->
+        <div class="col center pb-3">
+          <div class="card dark text-white" >
+            <img
+              class="card-img-top"
+              src="/images/shanty.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Shanty</h3>
+              <p class="card-text">
+                Shanty is a Chrome Extension that declutters your Chrome
+                homepage, it has features like: beautiful Nature Wallpaper,
+                Real-Time Bitcoin and Ethereum Price Tracker, Real-Time Weather
+                Updates, Motivational Quote.
+              </p>
+              <div class="btns">
+                <a href="https://github.com/Ansub/shanty"  target="_blank" class="btn btn-primary"><i class="fab fa-github px-1"></i>Github</a>
+                <a href="https://ansub.github.io/shanty/" target="_blank" class="btn btn-secondary"> <i class="fas fa-laptop-code px-1"></i>Live</a>
               </div>
             </div>
           </div>
-          <!-- Front-End Developer Bootcamp -->
-          <div class="col-md pb-3">
-            <div class="card dark text-white" style="width: 18rem;">
-              <img class="card-img-top" src="/images/developerBootcamp.png" alt="Card image cap">
-              <div class="card-body">
-                <h3 class="card-title">Developer Bootcamp Website</h3>
-                <p class="card-text">made a full-responsive front-end developer bootcamp using Bootstrap 5 and custom CSS. also added Map API and Random Image API and added bootstrap features like accordion to the website.
-
-                </p>
-                <div class="btns">
-                  <a href="#" class="btn btn-primary">Github</a>
-                  <a href="#" class="btn btn-secondary">Demo</a>
-                </div>
+        </div>
+        <!-- Front-End Developer Bootcamp -->
+        <div class="col center pb-3">
+          <div class="card dark text-white" >
+            <img
+              class="card-img-top"
+              src="/images/developerBootcamp.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Developer Bootcamp Website</h3>
+              <p class="card-text">
+                made a full-responsive front-end developer bootcamp using
+                Bootstrap 5 and custom CSS. also added Map API and Random Image
+                API and added bootstrap features like accordion to the website.
+              </p>
+              <div class="btns">
+                <a href="https://github.com/Ansub/frontend-bootcamp-website"  target="_blank" class="btn btn-primary"><i class="fab fa-github px-1"></i>Github</a>
+                <a href="https://frontend-bootcamp-website.vercel.app/" target="_blank" class="btn btn-secondary"> <i class="fas fa-laptop-code px-1"></i>Live</a>
               </div>
             </div>
           </div>
-          <!-- guess my number -->
-          <div class="col-md pb-3">
-            <div class="card dark text-white" style="width: 18rem;">
-              <img class="card-img-top" src="/images/guessMyNumber.png" alt="Card image cap">
-              <div class="card-body">
-                <h3 class="card-title">Number Guessing Game</h3>
-                <p class="card-text">build a number guessing game using javascript. A Simple Number Guessing Game which uses concepts like: CSS and HTML, Basic Javascript, JS Function, JS if and else, JS Ternary Opearator, DOM Manipulation
-
-
-
-                </p>
-                <div class="btns">
-                  <a href="#" class="btn btn-primary">Github</a>
-                  <a href="#" class="btn btn-secondary">Demo</a>
-                </div>
+        </div>
+        <!-- guess my number -->
+        <div class="col center pb-3">
+          <div class="card dark text-white" >
+            <img
+              class="card-img-top"
+              src="/images/guessMyNumber.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h3 class="card-title">Number Guessing Game</h3>
+              <p class="card-text">
+                build a number guessing game using javascript. A Simple Number
+                Guessing Game which uses concepts like: CSS and HTML, Basic
+                Javascript, JS Function, JS if and else, JS Ternary Opearator,
+                DOM Manipulation
+              </p>
+              <div class="btns">
+                <a href="https://github.com/Ansub/guess-my-number-js"  target="_blank" class="btn btn-primary"><i class="fab fa-github px-1"></i>Github</a>
+                <a href="https://ansub.github.io/guess-my-number-js/" target="_blank" class="btn btn-secondary"> <i class="fas fa-laptop-code px-1"></i>Live</a>
               </div>
             </div>
           </div>
+        </div>
       </div>
     </section>
-  
-  <!-- Education -->
-  <section class="p-5 text-center text-white dark" id="education">
-    <div class="container">
-      
-      <h1 class="heading mb-5">Education</h1>
-      <div class="row">
-        <div class="col-md"><h3>Front-End Carrer Path
-        </h3>
-        <p class="lead">Scrimba
-        </p>
-        <p >2021-2022
-        </p></div>
-        <hr/>
 
-        <div class="col-md"><h3>Bachelor of Computer Applications
-        </h3>
-        <p class="lead">Guru Gobind Singh Indraprastha University
-        </p>
-        <p >2018-2021
-        </p></div>
-        <hr/>
-        <div class="col-md"><h3>Central Board of Secondary Education
+    <!-- Education -->
+    <section class="p-5 text-center text-white dark" id="education">
+      <div class="container">
+        <h1 class="heading mb-5"><i class="fas fa-user-graduate"></i> Education</h1>
+        <div class="row">
+          <div class="col-md">
+            <h3>Front-End Carrer Path</h3>
+            <p class="lead bold-text">Scrimba</p>
+            <p>2021-2022</p>
+          </div>
+          <hr />
 
-        </h3>
-        <p class="lead">Grade 12, Science</p>
-        <p >2017-2018
-        </p></div>
+          <div class="col-md">
+            <h3>Bachelor of Computer Applications</h3>
+            <p class="lead bold-text">
+              Guru Gobind Singh Indraprastha University
+            </p>
+            <p>2018-2021</p>
+          </div>
+          <hr />
+          <div class="col-md">
+            <h3>Central Board of Secondary Education</h3>
+            <p class="lead bold-text">Grade 12, Science</p>
+            <p>2017-2018</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-<footer class=" text-white page-footer font-small special-color-dark pt-4">
-  <div class="container">
+    <!-- Footer -->
+    <footer class="text-white p-4" id="footer">
+      <div class="container">
+        <ul class="list-unstyled list-inline text-center">
+          <li class="list-inline-item">
+            <a href="https:/github.com/ansub" target="_blank"  class="btn-floating">
+              <i class="fab fa-github"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https:/twitter.com/justansub" target="_blank"  class="btn-floating">
+              <i class="fab fa-twitter"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https:/linkedin.com/in/ansub" target="_blank" class="btn-floating">
+              <i class="fab fa-linkedin"> </i>
+            </a>
+          </li>
+        </ul>
+      </div>
 
-    <ul class="list-unstyled list-inline text-center">
-      <li class="list-inline-item">
-        <a class="btn-floating btn-fb mx-1">
-          <i class="fab fa-github"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-tw mx-1">
-          <i class="fab fa-twitter"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-gplus mx-1">
-          <i class="fab fa-linkedin"> </i>
-        </a>
-      </li>
-    </ul>
-
-  </div>
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center  py-3">© 2022 Copyright
-    <a href="https://ansubkhan.com/"> Ansub Khan</a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
+      <div class="footer-copyright text-center">
+        © 2022 Copyright
+        <a class="footer-link" href="https://ansubkhan.com/"> Ansub Khan</a>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
