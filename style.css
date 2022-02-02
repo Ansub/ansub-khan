@@ -13,7 +13,9 @@ body::-webkit-scrollbar-thumb {
 
 /* Pre-defined */
 body {
-  background-color: #fc4a1a !important;
+  background: #ff9966;
+  background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
+  background: linear-gradient(to right, #ff5e62, #ff9966);
   background-repeat: no-repeat;
   font-family: "Raleway", sans-serif !important;
 }
