@@ -1,3 +1,8 @@
+let spinerWrapper = document.querySelector(".spinner-wrapper")
+window.addEventListener("load", function () {
+  spinerWrapper.style.display = "none"
+})
+
 function myFunction() {
   var x = document.getElementById("myLinks")
   if (x.style.display === "block") {
