@@ -5,21 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!-- FontAwesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
       rel="stylesheet"
     />
+
     <link rel="shortcut icon" type="image/png" href="/images/A..png"/>
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+<!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- CSS -->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap"
       rel="stylesheet"
@@ -100,12 +108,12 @@
       </div>
     </section>
     <!-- About -->
-    <section class="  fade-in p-5 text-light" id="about">
+    <section class=" p-5 text-light" id="about">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md p-sm-5">
-            <h1  class="heading text-center mb-5"><i class="fas fa-user" ></i> About Me</h1>
-            <p >
+            <h1 data-aos="fade-up" class="heading text-center mb-5"><i class="fas fa-user" ></i> About Me</h1>
+            <p data-aos="fade-in">
               Hello, my name is Ansub Khan a Computer Application Graduate from
               India, I am a Front-End Developer who is always eager to learn
               something new and is up to date on the latest trends in
@@ -117,17 +125,17 @@
             </p>
           </div>
           <div class="col-md ">
-            <img  class="img-fluid " src="/images/ansub.png" alt="ansubImage" />
+            <img data-aos="fade-left" class="img-fluid " src="/images/ansub.png" alt="ansubImage" />
           </div>
         </div>
       </div>
     </section>
     <!-- Skills -->
-    <section class="p-5 text-light text-center dark" id="skills">
+    <section  class="p-5 text-light text-center dark" id="skills">
       <div class="container">
         <div class="row align-items-center justify-content-between">
-          <h1  class="heading pb-3"><i class="fas fa-cogs"></i> Skills</h1>
-          <div class="col-md pt-md-5">
+          <h1 data-aos="zoom-in" class="heading pb-3"><i class="fas fa-cogs"></i> Skills</h1>
+          <div data-aos="zoom-in" class="col-md pt-md-5">
             <a href=""><i class="fab fa-html5"></i></a>
             <a href=""><i class="fab fa-css3"></i></a>
             <a href=""><i class="fab fa-js"></i></a>
@@ -144,10 +152,10 @@
     <!-- Projects -->
     <section class="p-5" id="projects">
       <div class="container">
-        <h1  class="heading text-center mb-5"><i class="fas fa-project-diagram" ></i> Projects</h1>
+        <h1 data-aos="zoom-in" class="heading text-center mb-5"><i class="fas fa-project-diagram" ></i> Projects</h1>
         <div class="row">
         <!-- Focus Allure -->
-        <div  class="col center pb-3">
+        <div data-aos="flip-left"   class="col center pb-3">
           <div class="card dark text-white" >
             <img
               class="card-img-top"
@@ -169,7 +177,7 @@
           </div>
         </div>
         <!-- Shanty -->
-        <div  class="col center pb-3">
+        <div data-aos="flip-left"  class="col center pb-3">
           <div class="card dark text-white" >
             <img
               class="card-img-top"
@@ -192,7 +200,7 @@
           </div>
         </div>
         <!-- Front-End Developer Bootcamp -->
-        <div  class="col center pb-3">
+        <div data-aos="flip-right"  class="col center pb-3">
           <div class="card dark text-white" >
             <img
               class="card-img-top"
@@ -214,7 +222,7 @@
           </div>
         </div>
         <!-- guess my number -->
-        <div  class="col center pb-3">
+        <div data-aos="flip-right" class="col center pb-3">
           <div class="card dark text-white" >
             <img
               class="card-img-top"
@@ -244,15 +252,15 @@
       <div class="container">
         <h1  ="flip-right" class="heading mb-5"><i class="fas fa-user-graduate"></i> Education</h1>
         <div class="row">
-          <div class="col-md">
-            <h3  ="fade-in">Front-End Carrer Path</h3>
+          <div data-aos="fade-in" class="col-md">
+            <h3 >Front-End Carrer Path</h3>
             <p 
             class="lead bold-text">Scrimba</p>
             <p  >2021-2022</p>
           </div>
           <hr  />
 
-          <div class="col-md">
+          <div data-aos="fade-in" class="col-md">
             <h3 >Bachelor of Computer Applications</h3>
             <p   class="lead bold-text">
               Guru Gobind Singh Indraprastha University
@@ -260,7 +268,7 @@
             <p  >2018-2021</p>
           </div>
           <hr  />
-          <div class="col-md">
+          <div data-aos="fade-in" class="col-md">
             <h3 >Central Board of Secondary Education</h3>
             <p  class="lead bold-text">Grade 12, Science</p>
             <p>2017-2018</p>
@@ -270,9 +278,9 @@
     </section>
 
     <!-- Footer -->
-    <footer class="text-white p-4" id="footer">
+    <section data-aos="fade-in" class="text-white p-4" id="footer">
       <div class="container">
-        <ul  class="list-unstyled list-inline text-center">
+        <ul  class="list-unstyled  px-2 list-inline text-center">
           <li class="list-inline-item">
             <a href="https:/github.com/ansub" target="_blank"  class="btn-floating">
               <i class="fab fa-github"> </i>
@@ -295,7 +303,7 @@
         © 2022 Copyright
         <a  class="footer-link" href="https://ansubkhan.com/"> Ansub Khan</a>
       </div>
-    </footer>
+    </section>
 
  
     <!-- Script -->
@@ -305,5 +313,12 @@
       crossorigin="anonymous"
     ></script>
     <script src="app.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>
