@@ -11,12 +11,6 @@ body::-webkit-scrollbar-thumb {
   background: #fdf36d;
 }
 
-body {
-  background: linear-gradient(to right, #c471ed, #f64f59);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-}
-
 header,
 section {
   width: 100%;
@@ -24,9 +18,11 @@ section {
   overflow: hidden;
 }
 /* Pre-defined */
+
 body {
   background: linear-gradient(to right, #c471ed, #f64f59);
-  background-repeat: no-repeat;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
   font-family: "Raleway", sans-serif !important;
 }
 
@@ -93,7 +89,7 @@ h3 {
   padding: 1rem 2rem 1rem 2rem;
 }
 
-.fab:hover {
+#skills .fab:hover {
   color: #fdf36d;
 }
 
@@ -114,7 +110,9 @@ h3 {
 
 .btn-primary {
   margin: 0 0.5rem !important;
+  border: none !important;
 }
+
 .btn-secondary {
   background: #fff !important;
   border: none !important;
