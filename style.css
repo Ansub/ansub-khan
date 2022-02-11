@@ -18,7 +18,9 @@ section {
   overflow: hidden;
 }
 /* Pre-defined */
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: linear-gradient(to right, #c471ed, #f64f59);
   background-size: 400% 400%;
@@ -26,6 +28,10 @@ body {
   font-family: "Raleway", sans-serif !important;
 }
 
+h3 {
+  color: #fdf36d;
+  font-weight: 700 !important;
+}
 .center {
   display: flex !important;
   align-items: center !important;
@@ -36,10 +42,6 @@ body {
   font-weight: bold !important;
 }
 
-h3 {
-  color: #fdf36d;
-  font-weight: 700 !important;
-}
 /* Navbar */
 
 #navbar {
