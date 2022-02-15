@@ -17,10 +17,12 @@ section {
   float: left;
   overflow: hidden;
 }
+
 /* Pre-defined */
 html {
   scroll-behavior: smooth;
 }
+
 body {
   background: linear-gradient(to right, #c471ed, #f64f59);
   background-size: 400% 400%;
@@ -32,6 +34,7 @@ h3 {
   color: #fdf36d;
   font-weight: 700 !important;
 }
+
 .center {
   display: flex !important;
   align-items: center !important;
@@ -55,9 +58,11 @@ h3 {
 .navbar {
   color: white;
 }
+
 .navbar--logo {
   width: 90px;
 }
+
 .dark {
   background: rgb(19, 19, 19) !important;
 }
@@ -77,6 +82,7 @@ h3 {
   font-size: 4rem;
   font-weight: bold;
 }
+
 /* Main */
 .down-arrow {
   width: 200px !important;
@@ -128,6 +134,13 @@ h3 {
   color: black !important;
 }
 
+/* Education */
+.edu--year {
+  font-size: 1rem;
+  font-weight: light;
+  color: white;
+}
+
 /*  Footer */
 #footer .fab {
   font-size: 30px;
@@ -160,6 +173,7 @@ h3 {
     padding: 10rem 0 !important;
   }
 }
+
 @media screen and (min-width: 1024px) {
   #skills {
     padding: 10rem 0 !important;
@@ -182,6 +196,7 @@ h3 {
   #skills {
     padding: 5rem 0rem !important;
   }
+
   #skills .fab {
     font-size: 3rem !important;
     color: white;
@@ -204,21 +219,10 @@ h3 {
   .heading {
     font-size: 3rem;
   }
+
   .down-arrow {
     width: 100px !important;
     height: 100px !important;
-  }
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
   }
 }
 
@@ -233,4 +237,18 @@ h3 {
 .card-img-top {
   border-radius: 12px 12px 0px 0px !important;
   height: 200px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
